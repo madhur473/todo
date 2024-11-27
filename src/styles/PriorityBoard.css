@@ -1,0 +1,133 @@
+.priority-board {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    overflow-x: auto;
+  }
+  
+  .priority-column {
+    min-width: 280px;
+    background-color: #f4f5f8;
+    border-radius: 8px;
+    padding: 12px;
+  }
+  
+  .column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .priority-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .priority-title {
+    font-weight: 600;
+  }
+  
+  .ticket-count {
+    color: #6b6f76;
+    font-size: 14px;
+  }
+  
+  .header-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tickets-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .ticket-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .ticket-id {
+    color: #6b6f76;
+    font-size: 14px;
+  }
+  
+  .user-avatar {
+    width: 24px;
+    height: 24px;
+    background-color: #e2e4e9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    position: relative;
+  }
+  
+  .status-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ddd;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 2px solid #fff;
+  }
+  
+  .status-indicator[data-available="true"] {
+    background-color: #4caf50;
+  }
+  
+  .ticket-title {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .ticket-tags {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .feature-tag {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: #e2e4e9;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 12px;
+  }
+  
+  .tag-icon {
+    font-size: 10px;
+  }
+  
+  
